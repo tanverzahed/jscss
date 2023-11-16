@@ -1,0 +1,11 @@
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid div {
+    background-color: black;
+    flex: 0 0 1;
+}

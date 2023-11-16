@@ -1,0 +1,37 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #005F73;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+    background-color: #001219;
+    width: 100%;
+    flex-basis: auto;
+    height: 10%;
+}
+
+.name {
+    margin-right: auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+}
